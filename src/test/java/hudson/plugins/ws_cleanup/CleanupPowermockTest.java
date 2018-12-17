@@ -51,7 +51,7 @@ import static org.mockito.Mockito.spy;
 @RunWith(PowerMockRunner.class)
 @PowerMockIgnore({
         "javax.crypto.*", // http://stackoverflow.com/questions/12914814/java-security-class-cast-exception
-        "javax.xml.*", "org.xml.sax.*" // https://github.com/powermock/powermock/issues/864
+        //"javax.xml.*", "org.xml.sax.*" // https://github.com/powermock/powermock/issues/864
 })
 @PrepareForTest(FilePath.class)
 public class CleanupPowermockTest {
